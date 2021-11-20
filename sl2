@@ -43,7 +43,7 @@ end
 
 function library:CreateFrame()
     local PayPal = Instance.new("ScreenGui")
-    local Frame = Instance.new("ImageLabel")
+    local Frame = Instance.new("Frame")
     local TabFrame = Instance.new("TextLabel")
     local TabFrameRound = Instance.new("ImageLabel")
     local UIListLayout = Instance.new("UIListLayout")
@@ -64,7 +64,7 @@ function library:CreateFrame()
     Frame.BackgroundTransparency = 1.000
     Frame.Position = UDim2.new(0, 9, 0, 669)
     Frame.Size = UDim2.new(0, 513, 0, 306)
-    Frame.Image = "rbxassetid://3570695787"
+    Frame.Text = "KurWare"
     Frame.ImageColor3 = Color3.fromRGB(26, 26, 26)
     Frame.ScaleType = Enum.ScaleType.Slice
     Frame.SliceCenter = Rect.new(100, 100, 100, 100)
