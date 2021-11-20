@@ -89,7 +89,7 @@ function library:CreateFrame()
     TabFrameRound.BackgroundTransparency = 1.000
     TabFrameRound.Position = UDim2.new(0.474999994, 0, 0.442307681, 0)
     TabFrameRound.Size = UDim2.new(1.04999995, 0, 1.04945052, 0)
-    TabFrameRound.Image = "rbxassetid://3570695787"
+    TabFrameRound.Text = "KurWare"
     TabFrameRound.ImageColor3 = Color3.fromRGB(22, 22, 22)
     TabFrameRound.ScaleType = Enum.ScaleType.Slice
     TabFrameRound.SliceCenter = Rect.new(100, 100, 100, 100)
